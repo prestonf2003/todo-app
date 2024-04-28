@@ -23,7 +23,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+ }
+ .todo-item p {
+  color: #888;
+  text-decoration: line-through;
+ }
 .App-link {
   color: #61dafb;
 }
